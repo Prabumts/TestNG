@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="dataprovide">
+<test name="checking">
+<classes>
+<class name="testngPractice.Dataprovoider"></class>
+</classes>
+</test>
+</suite>
+
+
+
+
+
+
+
+
+<!-- <suite name="trial">
+<listeners>
+<listener class-name="Test.Listeners"></listener>
+</listeners>
+<test name="trialtest">
+<classes>
+<class name="Test.Assertion"></class>-->
+
+
+<!-- <suite name="Tial" verbose="3" parallel="methods" thread-count="2">
+<test name="trialTest">
+<parameter name="name" value="mettala"></parameter>
+<parameter name="id" value="23456"></parameter>
+<parameter name="ph1" value="23456789"></parameter>
+ <groups>
+<run>
+<include name="vivo"/>
+<include name="nokia"/>
+</run>
+</groups> 
+<classes>
+<class name="Test.Parallel"></class>
+<class name="Test.Parameterization"></class>
+<class name="Test.GroupingExample"/>
+ <class name="Test.Home"/>
+<class name="Test.Practice"/> -->
+
+

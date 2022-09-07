@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [dataprovide]">
+  <test thread-count="5" name="checking(failed)">
+    <classes>
+      <class name="testngPractice.Dataprovoider">
+        <methods>
+          <include name="afterclass"/>
+          <include name="tc_001"/>
+          <include name="openFb"/>
+        </methods>
+      </class> <!-- testngPractice.Dataprovoider -->
+    </classes>
+  </test> <!-- checking(failed) -->
+</suite> <!-- Failed suite [dataprovide] -->

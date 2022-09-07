@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Tial]">
+  <test thread-count="5" verbose="3" name="trialTest(failed)">
+    <parameter name="name" value="mettala"/>
+    <parameter name="ph1" value="23456789l"/>
+    <parameter name="id" value=""/>
+    <classes>
+      <class name="Test.Parameterization">
+        <methods>
+          <include name="phno"/>
+          <include name="id"/>
+        </methods>
+      </class> <!-- Test.Parameterization -->
+    </classes>
+  </test> <!-- trialTest(failed) -->
+</suite> <!-- Failed suite [Tial] -->
